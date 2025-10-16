@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Judul Halaman</title>
   <style>
-    #about {
+    #about,
+    #contact {
       background-color: #ffffff;
       border-radius: 10px;
       padding: 20px;
@@ -54,30 +55,6 @@
       }
     }
 
-      form button[type="submit"] {
-        background-color: #28a745;
-        color: #fff;
-        margin-right: 10px;
-    }
-
-      form button[type="reset"] {
-        background-color: #dc3545;
-        color: #fff;
-    }
-    
-      #contact {
-        background-color: #c4dFE6;
-      }
-
-      #contact label {
-        color:#ffffff
-      }
-
-      #contact h2 {
-        color:#ffffff
-      }
-
-
   </style>
 </head>
 
@@ -117,7 +94,7 @@
       <form action="" method="get">
 
         <form action="" method="GET">
-        <label for="txtNama">Nama:</label>
+        <label for="txtNama"><span>Nama:</span>                                                                  </label>
         <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
 
         <label for="txtEmail">Email:</label>
