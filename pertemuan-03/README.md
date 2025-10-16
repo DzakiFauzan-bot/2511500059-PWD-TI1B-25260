@@ -20,5 +20,6 @@ Hari ini, kamis 09 Oktober 2025, saya belajar:
   <li>membuat styling untuk selector ID #contact textarea dan input</li> 
   <li>membuat styling untuk selector ID #contact button</li> 
   <li>membuat styling untuk selector ID #contact color</li> 
+  <li>membuat styling untuk selector ID #contact color efek</li>
  <ol> 
  
