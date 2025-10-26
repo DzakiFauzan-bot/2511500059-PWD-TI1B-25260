@@ -172,7 +172,7 @@ header li a:active {
     flex-direction: column;
     background: #003366;
     width: 100%;
-    podding: 5px 0;  
+    padding: 5px 0;  
   }
 
   nav.active {
