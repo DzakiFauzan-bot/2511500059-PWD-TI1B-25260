@@ -167,6 +167,14 @@ header li a:active {
     top: 8px;
   }
 
+  nav {
+    display: none;
+    flex-direction: column;
+    background: #003366;
+    width: 100%;
+    podding: 5px 0;  
+  }
+
   header {
     padding: 16px;
     position: sticky;
