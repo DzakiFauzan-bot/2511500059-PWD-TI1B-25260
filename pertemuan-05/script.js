@@ -1,5 +1,11 @@
 document.getElementById("menuToggle").addEventListener("click", function () {
-    document.querySelector("nav").classList.toggle("active");
+    const nav = document.querySelector("nav");
+    nav.classList.toggle("active");
+    if (nav.classList.contains("active")) {
+        this.textContent = "\u2716";
+    } else {
+        this.textContent = "\u2630";
+    }
 });
 
 document.querySelector("form").addEventListener("submit", function (e) {
@@ -79,3 +85,5 @@ window.addEventListener("resize", () => {
         if (target) alignErrorMessage(small, target);
     });
 });
+
+
