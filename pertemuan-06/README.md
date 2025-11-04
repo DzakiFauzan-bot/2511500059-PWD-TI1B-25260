@@ -15,4 +15,5 @@ belajar:<br>
   <li>membuat variabel dan melakukan perhitungan untuk matkul 1</li>
   <li>membuat variabel dan melakukan perhitungan untuk matkul 2</li>
   <li>membuat variabel dan melakukan perhitungan untuk matkul 3</li>
+  <li>membuat variabel dan melakukan perhitungan untuk matkul 4</li>
 </oli>
