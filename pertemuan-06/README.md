@@ -11,4 +11,5 @@ belajar:<br>
   <li>copy index.html dan rename hasil copy ke index.php</li> 
   <li>membuat variabel php untuk nilai nim sampai adek</li>
   <li>membuat sectionipk</li>
+  <li>styling sectionipk</li>
 </oli>
