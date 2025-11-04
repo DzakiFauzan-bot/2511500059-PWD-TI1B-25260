@@ -12,4 +12,5 @@ belajar:<br>
   <li>membuat variabel php untuk nilai nim sampai adek</li>
   <li>membuat sectionipk</li>
   <li>styling sectionipk</li>
+  <li>membuat variabel dan melakukan perhitungan untuk matkul 1</li>
 </oli>
