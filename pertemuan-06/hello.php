@@ -1,4 +1,4 @@
 <?php
     echo "halo dunia!";
-    echo
+    echo "HAI AKU DOPIT";
 ?>
