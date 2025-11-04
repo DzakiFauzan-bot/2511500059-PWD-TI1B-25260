@@ -426,13 +426,12 @@
         <p>
             <strong>Nama Matakuliah :</strong>
             <?php
-            $namaMatkul2 = "Logika Informatika";
+            $namaMatkul3 = "Logika Informatika";
             echo $namaMatkul3;
             ?>
         </p>
 
         <p>
-            
             <strong>SKS :</strong>
             <?php
             $sksMatkul3 = "8";
@@ -475,7 +474,7 @@
         <p>
             <strong>Nilai Akhir :</strong>
             <?php
-            $nilaiAkhir2 = (0.1 * $nilaiHadir3) + (0.2 * $nilaiTugas3) + (0.3 * $nilaiUTS3) + (0.4 * $nilaiUAS3);
+            $nilaiAkhir3 = (0.1 * $nilaiHadir3) + (0.2 * $nilaiTugas3) + (0.3 * $nilaiUTS3) + (0.4 * $nilaiUAS3);
             echo $nilaiAkhir3;
             ?>
         </p>
@@ -541,35 +540,57 @@
         </p>
 
         <p>
-            <strong>Status :</strong>
+            <strong>Bobot :</strong>
             <?php
-            if ($grade1 == "A") {
-                $status1 = "Lulus";
-            } elseif ($grade1 == "A-") {
-                $status1 = "Lulus";
-            } elseif ($grade1 == "B+") {
-                $status1 = "Lulus";
-            } elseif ($grade1 == "B") {
-                $status1 = "Lulus";
-            } elseif ($grade1 == "B-") {
-                $status1 = "Lulus";
-            } elseif ($grade1 == "C+") {
-                $status1 = "Lulus";
-            } elseif ($grade1 == "C") {
-                $status1 = "Lulus";
-            } elseif ($grade1 == "C-") {
-                $status1 = "Lulus";
-            } else {
-                $status1 = "Tidak Lulus";
-            }
-            echo $status1;
+            $bobot2 = $mutu2 * $sksMatkul2;
+            echo $bobot2;
             ?>
         </p>
 
-        <p><strong></strong></p>
+        <p>
+            <strong>Status :</strong>
+            <?php
+            if ($grade3 == "A") {
+                $status3 = "Lulus";
+            } elseif ($grade3 == "A-") {
+                $status3 = "Lulus";
+            } elseif ($grade3 == "B+") {
+                $status3 = "Lulus";
+            } elseif ($grade3 == "B") {
+                $status3 = "Lulus";
+            } elseif ($grade3 == "B-") {
+                $status3 = "Lulus";
+            } elseif ($grade3 == "C+") {
+                $status3 = "Lulus";
+            } elseif ($grade3 == "C") {
+                $status3 = "Lulus";
+            } elseif ($grade3 == "C-") {
+                $status3 = "Lulus";
+            } else {
+                $status3 = "Tidak Lulus";
+            }
+            echo $status3;
+            ?>
+        </p>
+        <!-- Matkul 3 end muampos -->
+
+        <!--MATKUL 4 -->
         <hr>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
+        <p>
+             <strong>Nama Matakuliah :</strong>
+            <?php
+            $namaMatkul4 = "Pemrograman Web";
+            echo $namaMatkul4;
+            ?>
+        </p>
+        <p>
+             <strong>SKS :</strong>
+            <?php
+            $sksMatkul4 = "8";
+            echo $sksMatkul4;
+            ?>
+        </p>
+
         <p><strong></strong></p>
         <p><strong></strong></p>
         <p><strong></strong></p>
