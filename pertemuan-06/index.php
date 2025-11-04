@@ -876,6 +876,29 @@
             ?>
         </p>
         <hr>
+        <p>
+            <strong>Total Bobot :</strong>
+            <?php
+            $totalBobot = $bobot1 + $bobot2 + $bobot3 + $bobot4 + $bobot5;
+            echo $totalBobot;
+            ?>
+        </p>
+
+        <p>
+            <strong>Total SKS :</strong>
+            <?php
+            $totalSKS = $sksMatkul1 + $sksMatkul2 + $sksMatkul3 + $sksMatkul4 + $sksMatkul5;
+            echo $totalSKS;
+            ?>
+        </p>
+
+        <p>
+            <strong>IPK :</strong>
+            <?php
+            $ipk = $totalBobot / $totalSKS;
+            echo $ipk;
+            ?>
+        </p>
     </section>
 
     <section id="contact">
