@@ -298,7 +298,7 @@
         <p>
             <strong>Tugas :</strong>
             <?php
-            $nilaiTugas2 = "100";
+            $nilaiTugas2 = "90";
             echo $nilaiTugas2;
             ?>
         </p>
@@ -306,7 +306,7 @@
         <p>
             <strong>UTS :</strong>
             <?php
-            $nilaiUTS2 = "100";
+            $nilaiUTS2 = "87";
             echo $nilaiUTS2 ;
             ?>
         </p>
@@ -314,7 +314,7 @@
         <p>
             <strong>UAS :</strong>
             <?php
-            $nilaiUAS2 = "100";
+            $nilaiUAS2 = "80";
             echo $nilaiUAS2;
             ?>
         </p>
