@@ -137,7 +137,7 @@
         <p>
             <strong>Kehadiran :</strong>
             <?php
-            $nilaiHadir1 = "100";
+            $nilaiHadir1 = "90";
             echo $nilaiHadir1;
             ?>
         </p>
@@ -145,7 +145,7 @@
         <p>
             <strong>Tugas :</strong>
             <?php
-            $nilaiTugas1 = "100";
+            $nilaiTugas1 = "85";
             echo $nilaiTugas1;
             ?>
         </p>
@@ -153,7 +153,7 @@
         <p>
             <strong>UTS :</strong>
             <?php
-            $nilaiUTS1 = "100";
+            $nilaiUTS1 = "60";
             echo $nilaiUTS1 ;
             ?>
         </p>
@@ -161,7 +161,7 @@
         <p>
             <strong>UAS :</strong>
             <?php
-            $nilaiUAS1 = "100";
+            $nilaiUAS1 = "70";
             echo $nilaiUAS1;
             ?>        
         </p>
