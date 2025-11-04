@@ -14,4 +14,5 @@ belajar:<br>
   <li>styling sectionipk</li>
   <li>membuat variabel dan melakukan perhitungan untuk matkul 1</li>
   <li>membuat variabel dan melakukan perhitungan untuk matkul 2</li>
+  <li>membuat variabel dan melakukan perhitungan untuk matkul 4</li>
 </oli>
