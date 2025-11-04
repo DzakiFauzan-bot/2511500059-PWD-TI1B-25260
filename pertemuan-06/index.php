@@ -577,7 +577,7 @@
         <!--MATKUL 4 -->
         <hr>
         <p>
-             <strong>Nama Matakuliah :</strong>
+            <strong>Nama Matakuliah :</strong>
             <?php
             $namaMatkul4 = "Pemrograman Web";
             echo $namaMatkul4;
@@ -724,18 +724,157 @@
             echo $status4;
             ?>
         </p>
+
         <hr>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong></strong></p>
+        <p>
+            <strong>Nama Matakuliah :</strong>
+            <?php
+            $namaMatkul5 = "Konsep Basis Data";
+            echo $namaMatkul5;
+            ?>
+        </p>
+
+        <p>
+            <strong>SKS :</strong>
+            <?php
+            $sksMatkul5 = "8";
+            echo $sksMatkul5;
+            ?>
+        </p>
+
+        <p>
+            <strong>Kehadiran :</strong>
+            <?php
+            $nilaiHadir5 = "100";
+            echo $nilaiHadir5;
+            ?>
+        </p>
+
+        <p>
+            <strong>Tugas :</strong>
+            <?php
+            $nilaiTugas5 = "100";
+            echo $nilaiTugas5;
+            ?>
+        </p>
+
+        <p>
+            <strong>UTS :</strong>
+            <?php
+            $nilaiUTS5 = "100";
+            echo $nilaiUTS5 ;
+            ?>
+        </p>
+
+        <p>
+            <strong>UAS :</strong>
+            <?php
+            $nilaiUAS5 = "100";
+            echo $nilaiUAS5;
+            ?>
+        </p>
+
+        <p>
+            <strong>Nilai Akhir :</strong>
+            <?php
+            $nilaiAkhir5 = (0.1 * $nilaiHadir5) + (0.2 * $nilaiTugas5) + (0.3 * $nilaiUTS5) + (0.4 * $nilaiUAS5);
+            echo $nilaiAkhir5;
+            ?>
+        </p>
+
+        <p>
+            <strong>Grade</strong>
+              <?php
+            if ($nilaiHadir5 < 65) {
+                $grade5 = "E";
+            } elseif ($nilaiAkhir5 >= 91) {
+                $grade5 = "A";
+            } elseif ($nilaiAkhir5 >= 80) {
+                $grade5 = "A-";
+            } elseif ($nilaiAkhir5 >= 76) {
+                $grade5 = "B+";
+            } elseif ($nilaiAkhir5 >= 71) {
+                $grade5 = "B";
+            } elseif ($nilaiAkhir5 >= 66) {
+                $grade5 = "B-";
+            } elseif ($nilaiAkhir5 >= 61) {
+                $grade5 = "C+";
+            } elseif ($nilaiAkhir5 >= 56) {
+                $grade5 = "C";
+            } elseif ($nilaiAkhir5 >= 51) {
+                $grade5 = "C-";
+            } elseif ($nilaiAkhir5 >= 36) {
+                $grade5 = "D";
+            } else {
+                $grade5 = "E";
+            }
+            echo $grade5;
+            ?>
+        </p>
+
+        <p>
+            <strong>Angka Mutu :</strong>
+            <?php
+            if ($nilaiHadir5 < 70) {
+                $mutu5 = "0.00";
+            } elseif ($nilaiAkhir5 >= 91) {
+                $mutu5 = "4.00";
+            } elseif ($nilaiAkhir5 >= 80) {
+                $mutu5 = "3.70";
+            } elseif ($nilaiAkhir5 >= 76) {
+                $mutu5 = "3.30";
+            } elseif ($nilaiAkhir5 >= 71) {
+                $mutu5 = "3.00";
+            } elseif ($nilaiAkhir5 >= 66) {
+                $mutu5 = "2.70";
+            } elseif ($nilaiAkhir5 >= 61) {
+                $mutu5 = "2.30";
+            } elseif ($nilaiAkhir5 >= 56) {
+                $mutu5 = "2.00";
+            } elseif ($nilaiAkhir5 >= 51) {
+                $mutu5 = "1.70";
+            } elseif ($nilaiAkhir5 >= 36) {
+                $mutu5 = "1.00";
+            } else {
+                $mutu5 = "0.00";
+            }
+            echo $mutu5;
+            ?>
+        </p>
+
+        <p>
+            <strong>Bobot :</strong>
+            <?php
+            $bobot5 = $mutu5 * $sksMatkul5;
+            echo $bobot5;
+            ?>
+        </p>
+
+        <p>
+            <strong>Status :</strong>
+            <?php
+            if ($grade5 == "A") {
+                $status5 = "Lulus";
+            } elseif ($grade5 == "A-") {
+                $status5 = "Lulus";
+            } elseif ($grade5 == "B+") {
+                $status5 = "Lulus";
+            } elseif ($grade5 == "B") {
+                $status5 = "Lulus";
+            } elseif ($grade5 == "B-") {
+                $status5 = "Lulus";
+            } elseif ($grade5 == "C+") {
+                $status5 = "Lulus";
+            } elseif ($grade5 == "C") {
+                $status5 = "Lulus";
+            } elseif ($grade5 == "C-") {
+                $status5 = "Lulus";
+            } else {
+                $status5 = "Tidak Lulus";
+            }
+            echo $status5;
+            ?>
+        </p>
         <hr>
     </section>
 
