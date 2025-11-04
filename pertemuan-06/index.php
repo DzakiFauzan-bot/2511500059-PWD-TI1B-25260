@@ -114,6 +114,209 @@
 
       </p>
     </section>
+
+    <section id="ipk">
+        <h2>Nilai saya</h2>
+        <!--MATKUL 1 -->
+        <p>
+            <strong>Nama Matakuliah :</strong>
+            <?php
+            $namaMatkul1 = "Kalkulus";
+            echo $namaMatkul1;
+            ?>
+        </p>
+
+        <p>
+            <strong>SKS :</strong>
+            <?php
+            $sksMatkul1 = "8";
+            echo $sksMatkul1
+            ?>
+        </p>
+
+        <p>
+            <strong>Kehadiran :</strong>
+            <?php
+            $nilaiHadir1 = "100";
+            echo $nilaiHadir1
+            ?>
+        </p>
+
+        <p>
+            <strong>Tugas :</strong>
+            <?php
+            $nilaiTugas1 = "100";
+            echo $nilaiTugas1
+            ?>
+        </p>
+
+        <p>
+            <strong>UTS :</strong>
+            <?php
+            $nilaiUTS1 = "100";
+            echo $nilaiUTS1 
+            ?>
+        </p>
+        <p>
+            <strong>UAS :</strong>
+            <?php
+            $nilaiUAS1 = "100";
+            echo $nilaiUAS1
+            ?>        
+        </p>
+
+        <p>
+            <strong>Nilai Akhir :</strong>
+            <?php
+            $nilaiAkhir1 = (0.1 * $nilaiHadir1) + (0.2 * $nilaiTugas1) + (0.3 * $nilaiUTS1) + (0.4 * $nilaiUAS1);
+            echo $nilaiAkhir1
+            ?>
+        </p>
+
+        <p>
+            <strong>Grade</strong>
+            <?php
+            if ($nilaiHadir1 < 65) {
+                $grade1 = "E";
+            } elseif ($nilaiAkhir1 < 91) {
+                $grade1 = "A";
+            } elseif ($nilaiAkhir1 < 80) {
+                $grade1 = "A-";
+            } elseif ($nilaiAkhir1 < 76) {
+                $grade1 = "B+";
+            } elseif ($nilaiAkhir1 < 71) {
+                $grade1 = "B";
+            } elseif ($nilaiAkhir1 < 66) {
+                $grade1 = "B-";
+            } elseif ($nilaiAkhir1 < 61) {
+                $grade1 = "C+";
+            } elseif ($nilaiAkhir1 < 56) {
+                $grade1 = "C";
+            } elseif ($nilaiAkhir1 < 51) {
+                $grade1 = "C-";
+            } elseif ($nilaiAkhir1 < 36) {
+                $grade1 = "D";
+            } else {
+                $grade1 = "E";
+            }
+            echo $grade1;
+            ?>
+        </p>
+
+        <p>
+            <strong>Angka Mutu :</strong>
+            <?php
+            if ($nilaiHadir1 < 70) {
+                $mutu1 = "0.00";
+            } elseif ($nilaiAkhir1 < 91) {
+                $mutu1 = "4.00";
+            } elseif ($nilaiAkhir1 < 80) {
+                $mutu1 = "3.70";
+            } elseif ($nilaiAkhir1 < 76) {
+                $mutu1 = "3.30";
+            } elseif ($nilaiAkhir1 < 71) {
+                $mutu1 = "3.00";
+            } elseif ($nilaiAkhir1 < 66) {
+                $mutu1 = "2.70";
+            } elseif ($nilaiAkhir1 < 61) {
+                $mutu1 = "2.30";
+            } elseif ($nilaiAkhir1 < 56) {
+                $mutu1 = "2.00";
+            } elseif ($nilaiAkhir1 < 51) {
+                $mutu1 = "1.70";
+            } elseif ($nilaiAkhir1 < 36) {
+                $mutu1 = "1.00";
+            } else {
+                $mutu1 = "0.00";
+            }
+            echo $mutu1;
+            ?>
+        </p>
+
+        <p>
+            <strong>Bobot :</strong>
+            <?php
+            $bobot1 = $mutu1 * $sksMatkul1;
+            echo $bobot1;
+            ?>
+        </p>
+
+        <p>
+            <strong>Status :</strong>
+            <?php
+            if ($grade1 == "A") {
+                $status1 = "Lulus";
+            } elseif ($grade1 == "A-") {
+                $status1 = "Lulus";
+            } elseif ($grade1 == "B+") {
+                $status1 = "Lulus";
+            } elseif ($grade1 == "B") {
+                $status1 = "Lulus";
+            } elseif ($grade1 == "B-") {
+                $status1 = "Lulus";
+            } elseif ($grade1 == "C+") {
+                $status1 = "Lulus";
+            } elseif ($grade1 == "C") {
+                $status1 = "Lulus";
+            } elseif ($grade1 == "C-") {
+                $status1 = "Lulus";
+            } else {
+                $status1 = "Tidak Lulus";
+            }
+            echo $status1;
+            ?>
+        </p>
+        <hr>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <hr>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <hr>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <hr>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <p><strong></strong></p>
+        <hr>
+    </section>
+
     <section id="contact">
       <h2>kontak kami</h2>
       <form action="" method="get">
