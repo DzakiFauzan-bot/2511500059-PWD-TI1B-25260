@@ -58,14 +58,14 @@
       <p>
          <strong>Tempat Lahir:</strong>
          <?php
-         echo "Tempat_Lahir";
+         echo "$Tempat_lahir";
          ?>
       </p>
 
       <p>
          <strong>Tanggal Lahir:</strong>
          <?php
-         echo "Tanggal_Lahir";
+         echo "$Tanggal_lahir";
          ?>
       </p>
 
@@ -73,45 +73,45 @@
       <p>
          <strong>Hobi:</strong>
          <?php
-         echo "Jalan jalan, Main game, Nonton anime";
+         echo "$Hobi";
          ?>
       </p>
 
       <p>
          <strong>Pasangan:</strong>
          <?php
-         echo "Pacaran &#10084;";
+         echo "$Pacaran";
          ?>
       </p>
 
       <p>
          <strong>Pekerjaan:</strong>
          <?php
-         echo "Mahasiswa";
+         echo "$Pekerjaan";
          ?>
       </p>
 
       <p>
          <strong>Nama Orang Tua:</strong>
          <?php
-         echo "Nopi Sansia, dan Yedy abdi arsyamsyah";
+         echo "$Nama_Orang_Tua";
          ?>
       </p>
 
       <p>
          <strong>Nama Kakak:</strong>
         <?php
-        echo "-";
+        echo "$Nama_Kakak";
         ?>
       </p>
 
       <p>
          <strong>Nama Adek:</strong>
          <?php
-         echo "Dzahabiyah Aribah";
+         echo "$Nama_Adek";
          ?>
       </p>
-      
+
       </p>
     </section>
     <section id="contact">
