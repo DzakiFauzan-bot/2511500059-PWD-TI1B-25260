@@ -594,7 +594,7 @@
         <p>
             <strong>Kehadiran :</strong>
             <?php
-            $nilaiHadir4 = "100";
+            $nilaiHadir4 = "60";
             echo $nilaiHadir4;
             ?>
         </p>
@@ -602,7 +602,7 @@
         <p>
             <strong>Tugas :</strong>
             <?php
-            $nilaiTugas4 = "100";
+            $nilaiTugas4 = "80";
             echo $nilaiTugas4;
             ?>
         </p>
@@ -610,7 +610,7 @@
         <p>
             <strong>UTS :</strong>
             <?php
-            $nilaiUTS4 = "100";
+            $nilaiUTS4 = "65";
             echo $nilaiUTS4 ;
             ?>
         </p>
@@ -618,7 +618,7 @@
         <p>
             <strong>UAS :</strong>
             <?php
-            $nilaiUAS4 = "100";
+            $nilaiUAS4 = "70";
             echo $nilaiUAS4;
             ?>
         </p>
