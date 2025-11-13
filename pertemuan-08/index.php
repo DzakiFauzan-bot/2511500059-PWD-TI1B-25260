@@ -56,12 +56,24 @@ endif;
       <h2>Entry Data Mahasiswa</h2>
       <form action="proses_mahasiswa.php" method="POST">
 
+        <label for="txtNim"><span>Nim:</span>
+          <input type="nim" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="nim">
+        </label>
+
         <label for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
         </label>
 
         <label for="txtEmail"><span>Email:</span>
           <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+        </label>
+
+        <label for="txtNim"><span>Tempat lahir:</span>
+          <input type="tempatlahir" id="txtTempatlahir" name="txtTempatlahir" placeholder="Masukkan tempat lahir" required autocomplete="tempatlahir">
+        </label>
+
+        <label for="txtNim"><span>Tanggal lahir:</span>
+          <input type="tanggallahir" id="txtTanggallahir" name="txtTanggallahir" placeholder="Masukkan tanggal lahir" required autocomplete="tanggallahir">
         </label>
 
         <label for="txtPesan"><span>Pesan Anda:</span>
