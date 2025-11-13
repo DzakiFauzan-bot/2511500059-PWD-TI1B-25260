@@ -7,3 +7,4 @@ NIM: 2511500059<br>
 belajar:<br>
 <ol>
 <li>mengganti bahan uts jadi di pertemuan 6</li>
+<li>membuat variabel php untuk nilai nim sampai adek</li>

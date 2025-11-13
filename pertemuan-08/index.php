@@ -72,11 +72,62 @@ endif;
         echo $Nim;
         ?>
       </p>
+
       <p><strong>Nama Lengkap:</strong>
         <?php
         echo $Nama;
         ?> &#128526;
       </p>
+
+      <p><strong>Tempat Lahir:</strong>
+        <?php
+        echo $Tempat_lahir;
+        ?>
+      </p>
+      
+      <p><strong>Tanggal Lahir:</strong>
+        <?php
+        echo $Tanggal_lahir;
+        ?>
+      </p>
+
+      <p><strong>Hobi:</strong>
+        <?php
+        echo $Hobi;
+        ?>
+      </p>
+
+      <p><strong>Pasangan:</strong>
+        <?php
+        echo $Pacaran;
+        ?>
+      </p>
+
+      <p><strong>Pekerjaan:</strong>
+        <?php
+        echo $Pekerjaan;
+        ?>
+       </p>
+       
+      <p><strong>Nama Orang Tua:</strong>
+        <?php
+        echo $Nama_Orang_Tua;
+        ?>
+      </p>
+      
+      <p><strong>Nama Kakak:</strong>
+        <?php
+        echo $Nama_Kakak;
+        ?>
+      </p>
+
+      <p><strong>Nama Adek:</strong>
+        <?php
+        echo $Nama_Adek;
+        ?>
+      </p>
+
+    </section>
    
       <section id="about">
       <h2>Tentang Saya</h2>
