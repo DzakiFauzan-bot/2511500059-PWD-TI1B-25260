@@ -1,6 +1,7 @@
 <?php
 session_start();
-$_SECTION["nama"] = $_GET["txtNama"];
-$_SECTION["email"] = $_GET["txtEmail"];
-$_SECTION["pesan"] = $_GET["txtPesan"];
+$_SESSION["nama"] = $_GET["txtNama"];
+$_SESSION["email"] = $_GET["txtEmail"];
+$_SESSION["pesan"] = $_GET["txtPesan"];
+
 ?>
