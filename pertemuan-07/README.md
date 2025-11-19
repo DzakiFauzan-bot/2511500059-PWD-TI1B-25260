@@ -16,5 +16,5 @@ belajar:<br>
   <li>copy paste get.php dan get_proses.php sebelumnya ke post.php dan post_proses.php</li>
   <li>menyesuaikan get menjadi post</li>
   <li>session_destroy</li>
-  <li>isset</li>
+  <li> isset</li>
   </ol>
