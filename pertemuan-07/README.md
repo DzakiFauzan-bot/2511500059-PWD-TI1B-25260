@@ -8,3 +8,4 @@ NIM: 2511500059<br>
 belajar:<br>
 <ol>
   <li>copy dari seluruh file elairning (punya dosen) untuk latihan pertemuan-07</li>
+  <li>copy  dan rename index.php menjadi get.php, kemudian buat file baru dengan nama get_proses.php untuk action</li>
