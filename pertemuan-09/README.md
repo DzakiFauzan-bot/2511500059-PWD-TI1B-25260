@@ -15,4 +15,5 @@
   <li>mengganti baris (23-32) menjadi kode yang ada di modul</li>
   <li>menghapus kode (19-67) dengan mengganti kode yang ada di modul</li>
   <li>menambahkan baris kode baru setelah baris <h2>Tentang Saya</h2></li>
+  <li>hapus barisan (130-140), karena sudah diakomodir menggunakan perulangan foreach</li>
 </ol>>
