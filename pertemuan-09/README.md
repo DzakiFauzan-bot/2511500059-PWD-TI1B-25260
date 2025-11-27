@@ -13,5 +13,6 @@
   <li>echo session ke nilai label section contact selesai</li>
   <li>Modif baris kode (10-19) menjadi bentuk array associative</li>
   <li>mengganti baris (23-32) menjadi kode yang ada di modul</li>
-  <li>menghapus kode (19-67) dengan kode yang ada di modul</li>
+  <li>menghapus kode (19-67) dengan mengganti kode yang ada di modul</li>
+  <li>menambahkan baris kode baru setelah baris <h2>Tentang Saya</h2></li>
 </ol>>
