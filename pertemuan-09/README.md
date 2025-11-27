@@ -20,4 +20,5 @@
   <li>menambah kode di modul ke fungsi php</li>
   <li>Tambahkan lagi kode pada fungsi.php untuk menghasilkan tanggal dalam format 2 digit tanggal, 3 digit nama bulan,
 dan 4 digit tahun</li>
+  <li>Tambahkan lagi kode pada fungsi.php untuk merender hasil atau output biodata</li>
 </ol>>
