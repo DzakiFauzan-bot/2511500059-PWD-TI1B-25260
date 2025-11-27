@@ -17,4 +17,5 @@
   <li>menambahkan baris kode baru setelah baris <h2>Tentang Saya</h2></li>
   <li>hapus barisan (130-140), karena sudah diakomodir menggunakan perulangan foreach</li>
   <li>membuat file baru dengan nama fungsi.php</li>
+  <li>menambah kode di modul ke fungsi php</li>
 </ol>>
