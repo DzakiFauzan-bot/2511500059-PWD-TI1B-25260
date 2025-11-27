@@ -18,4 +18,6 @@
   <li>hapus barisan (130-140), karena sudah diakomodir menggunakan perulangan foreach</li>
   <li>membuat file baru dengan nama fungsi.php</li>
   <li>menambah kode di modul ke fungsi php</li>
+  <li>Tambahkan lagi kode pada fungsi.php untuk menghasilkan tanggal dalam format 2 digit tanggal, 3 digit nama bulan,
+dan 4 digit tahun</li>
 </ol>>
