@@ -18,8 +18,6 @@ if (isset($_SESSION["sespesan"])):
   $sespesan = $_SESSION["sespesan"];
 endif;
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -150,13 +148,18 @@ endif;
         <button type="reset">Batal</button>
       </form>
 
-      <?php if (!empty($sesnama)): ?>
-        <br><hr>
+      <?php
+      $kontak = $_SESSION["kontak"] ?? [];
+      $fieldConfig = [
+        "nama" => ["label" => "Nama :", "suffix" => ""],
+        "email" => ["label" => "Email :", "suffix" => ""],
+        "pesan" => ["label" => "Pesan :", "suffix" => ""],
+      ];
+      ?>
+        <br>
+        <hr>
         <h2>Yang menghubungi kami</h2>
-        <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
-        <p><strong>Email :</strong> <?php echo $sesemail ?></p>
-        <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
-      <?php endif; ?>
+       <?= tampilkanBiodata( $fieldConfig, $kontak) ?>
 
 
 

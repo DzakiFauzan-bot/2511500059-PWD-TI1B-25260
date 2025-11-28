@@ -23,8 +23,9 @@ NIM: 2511500059<br>
   <li>membuat file baru dengan nama fungsi.php</li>
   <li>menambah kode di modul ke fungsi php</li>
   <li>Tambahkan lagi kode pada fungsi.php untuk menghasilkan tanggal dalam format 2 digit tanggal, 3 digit nama bulan,
-dan 4 digit tahun</li>
+      dan 4 digit tahun</li>
   <li>Tambahkan lagi kode pada fungsi.php untuk merender hasil atau output biodata</li>
   <li>Hapus baris 123-129, sebagai gantinya ketik kode yang baru</li>
   <li>menambah kode di awal index php menyertakan fungsi.php dengan kode require_once</li>
+  <li>menambah session kontak di index.php</li>
 </ol>>
