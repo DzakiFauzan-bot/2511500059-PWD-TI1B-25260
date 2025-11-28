@@ -1,5 +1,9 @@
 # pertemuan-09
 
+hari ini, jumat 28 November 2025,
+saya Dzaki Fauzan<br>
+NIM: 2511500059<br>
+
 <ol>
   <li>Hasil UTS untuk bahan pertemuan-09</li>
   <li>Membuat form untuk biodata sederhana mahasiswa</li>
@@ -22,4 +26,5 @@
 dan 4 digit tahun</li>
   <li>Tambahkan lagi kode pada fungsi.php untuk merender hasil atau output biodata</li>
   <li>Hapus baris 123-129, sebagai gantinya ketik kode yang baru</li>
+  <li>menambah kode di awal index php menyertakan fungsi.php dengan kode require_once</li>
 </ol>>
