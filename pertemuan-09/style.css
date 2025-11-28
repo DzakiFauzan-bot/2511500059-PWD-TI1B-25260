@@ -89,6 +89,8 @@ header li a:active {
 
 #about p,
 #contact label,
+#contact p,
+#biodata label,
 #biodata label {
   display: flex;
   justify-content: flex-start;
@@ -99,6 +101,7 @@ header li a:active {
 }
 
 #about strong,
+#contact strong,
 #contact label>span,
 #biodata label>span {
   min-width: 180px;

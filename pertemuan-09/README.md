@@ -28,4 +28,5 @@ NIM: 2511500059<br>
   <li>Hapus baris 123-129, sebagai gantinya ketik kode yang baru</li>
   <li>menambah kode di awal index php menyertakan fungsi.php dengan kode require_once</li>
   <li>menambah session kontak di index.php</li>
+  <li>styling di index</li>
 </ol>>
