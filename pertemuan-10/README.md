@@ -10,5 +10,5 @@ NIM: 2511500059<br>
 <li>Menambah kode baru koneksi.php</li>
 <li>Membuat database dengan nama db_pwd2025</li>
 <li>Menambah kode pada sql</li>
-
+<li>Membuat file baru dengan nama read.php dan menambah kode di dalam file</li>
 </ol>
