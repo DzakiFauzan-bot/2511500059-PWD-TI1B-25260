@@ -7,7 +7,7 @@ NIM: 2511500059<br>
 <ol>
 <li>Mengekstra bahan ajar ke pertemuan 10</li>
 <li>Membuat file baru dengan nama koneksi.php</li>
-
+<li>Menambah kode baru koneksi.php</li>
 
 
 </ol>
