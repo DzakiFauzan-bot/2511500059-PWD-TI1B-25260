@@ -12,4 +12,5 @@ NIM: 2511500059<br>
 <li>Menambah kode pada sql</li>
 <li>Membuat file baru dengan nama read.php dan menambah kode di dalam file</li>
 <li>Record membuat database</li>
+<li>Modif kode read_inc.php</li>
 </ol>
