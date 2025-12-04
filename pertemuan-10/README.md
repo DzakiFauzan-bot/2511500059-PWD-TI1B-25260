@@ -8,6 +8,7 @@ NIM: 2511500059<br>
 <li>Mengekstra bahan ajar ke pertemuan 10</li>
 <li>Membuat file baru dengan nama koneksi.php</li>
 <li>Menambah kode baru koneksi.php</li>
+<li>Membuat database dengan nama db_pwd2025</li>
 
 
 </ol>
