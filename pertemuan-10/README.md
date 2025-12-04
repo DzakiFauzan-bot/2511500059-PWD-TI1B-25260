@@ -14,4 +14,5 @@ NIM: 2511500059<br>
 <li>Record membuat database</li>
 <li>Modif kode read_inc.php</li>
 <li>Modif bagian kode 146</li>
+<li>Menghapus kode barisan 133-141</li>
 </ol>
