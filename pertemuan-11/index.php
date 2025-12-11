@@ -106,9 +106,7 @@ require_once __DIR__ . '/fungsi.php';
 
     <section id="about">
       <h2>Tentang Saya</h2>
-      <?= tampilkanBiodata($fieldConfig, $biodata) ?>
-    </section>
-
+      
 <?= tampilkanBiodata($fieldConfig, $biodata) ?>
 </section>
 

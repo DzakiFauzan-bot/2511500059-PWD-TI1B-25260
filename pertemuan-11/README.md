@@ -9,4 +9,5 @@ NIM: 2511500059<br>
 <li>Penangkap pesan sukses/gagal</li>
 <li>Tampilkan flash message</li>
 <li>Menampilkan nilai lama dari form untuk mengantisipasi jika error</li>
+<li>Cek REQUEST_METHOD apakah menggunakan 'POST'</li>
 </ol>
