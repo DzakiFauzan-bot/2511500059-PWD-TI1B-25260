@@ -7,4 +7,5 @@ NIM: 2511500059<br>
 <ol>
 <li>Update fungsi.php untuk helper redirect</li>
 <li>Penangkap pesan sukses/gagal</li>
+<li>Tampilkan flash message</li>
 </ol>
