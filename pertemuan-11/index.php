@@ -137,18 +137,18 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old']);
       <form action="proses.php" method="POST">
         
         <label for="txtNama"><span>Nama:</span>
-          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
-          value="<?= isset($old['nama'])" ? htmlspecialchars($old['nama']) : '' ?>">
+          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name"
+          value="<?= isset($old['Nama']) ? htmlspecialchars($old['Nama']) : '' ?>">
         </label>
 
         <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
-          value="<?= isset($old['email'])" ? htmlspecialchars($old['email']) : '' ?>">
+          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email"
+          value="<?= isset($old['email']) ? htmlspecialchars($old['email']) : '' ?>">
         </label>
 
         <label for="txtPesan"><span>Pesan Anda:</span>
           <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..."
-            required><?= iseet($old['pesan']) ? htmlspecialchars($old['pesan']) : '' ?></textarea>
+            required><?= isset($old['pesan']) ? htmlspecialchars($old['pesan']) : '' ?></textarea>
           <small id="charCount">0/200 karakter</small>
         </label>
 

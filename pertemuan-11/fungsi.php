@@ -5,9 +5,6 @@ function redirect_ke($url)
   exit();
 }
 
-  header("Location: " . $url);
-  exit();
-}
 function bersihkan($str)
 {
   return htmlspecialchars(trim($str));
