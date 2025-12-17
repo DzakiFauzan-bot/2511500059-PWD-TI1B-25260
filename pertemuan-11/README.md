@@ -12,5 +12,5 @@ NIM: 2511500059<br>
 <li>Cek REQUEST_METHOD apakah menggunakan 'POST'</li>
 <li>Mengambil data $_POST, trim, htmlspecialchars</li>
 <li>Simpan jawaban di session</li>
-<li></li>
+<li>Captcha</li>
 </ol>

@@ -157,6 +157,11 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old']);
           <small id="charCount">0/200 karakter</small>
         </label>
 
+        <label for="txtCaptcha">
+          <span>Captcha (<?= $a ?> + <?= $b ?> = ?):</span>
+          <input type="text" id="txtCaptcha" name="txtCaptcha" placeholder="Masukkan jawaban Anda" required>
+        </label> 
+
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>

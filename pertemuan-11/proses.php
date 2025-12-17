@@ -9,10 +9,17 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 require_once __DIR__ . '/fungsi.php';
 require_once __DIR__ . '/koneksi.php';
 
+$arrContact = [
+ "nama" => $_POST["txtNama"] ?? "",
+ "email" => $_POST["txtEmail"] ?? "",
+ "pesan" => $_POST["txtPesan"] ?? "",
+ "captcha" => $_POST["txtCaptcha"] ?? ""
+];
 
 $nama = bersihkan($_POST['txtNama'] ?? '');
 $email = bersihkan($_POST['txtEmail'] ?? '');
 $pesan = bersihkan($_POST['txtPesan'] ?? '');
+$captcha = bersihkan($_POST['txtCaptcha'] ?? '');
 
 # Validasi sederhana
 $errors = []; # ini array untuk menampung semua error yang ada
