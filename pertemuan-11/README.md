@@ -11,6 +11,6 @@ NIM: 2511500059<br>
 <li>Menampilkan nilai lama dari form untuk mengantisipasi jika error</li>
 <li>Cek REQUEST_METHOD apakah menggunakan 'POST'</li>
 <li>Mengambil data $_POST, trim, htmlspecialchars</li>
-<li></li>
+<li>Simpan jawaban di session</li>
 <li></li>
 </ol>

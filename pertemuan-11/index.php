@@ -1,6 +1,11 @@
 <?php
 session_start();
 require_once __DIR__ . '/fungsi.php';
+$a = rand(1, 9);
+$b = rand(1, 9);
+
+$_SESSION['captcha_result'] = $a + $b;
+
 ?>
 
 <!DOCTYPE html>
