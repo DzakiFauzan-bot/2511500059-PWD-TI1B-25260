@@ -7,7 +7,7 @@ NIM: 2511500059<br>
 <ol>
 <li>Copy pertemuan 11 ke 12</li>
 <li>Kolom aksi</li>
-<li></li>
+<li>Link edit</li>
 <li></li>
 <li></li>
 <li></li>
