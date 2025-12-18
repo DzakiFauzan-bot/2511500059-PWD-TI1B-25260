@@ -8,7 +8,7 @@ NIM: 2511500059<br>
 <li>Copy pertemuan 11 ke 12</li>
 <li>Kolom aksi</li>
 <li>Link edit</li>
-<li></li>
+<li>Penampil flash sukses maupun error</li>
 <li></li>
 <li></li>
 <li></li>
