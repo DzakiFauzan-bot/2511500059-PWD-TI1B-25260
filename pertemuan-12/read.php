@@ -1,6 +1,7 @@
 <?php
+session_start();
 require 'koneksi.php';
-require 'functions.php';
+require 'fungsi.php';
 
 $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
 $q   = mysqli_query($conn, $sql);
@@ -53,7 +54,7 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
         <td><?= htmlspecialchars($row['cnama']); ?></td>
         <td><?= htmlspecialchars($row['cemail']); ?></td>
         <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
-        <td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
+        <td><?= date('d-m-Y H:i:s', strtotime($row['dcreated_at'])); ?></td>
     </tr>
 
     <?php endwhile; ?>
