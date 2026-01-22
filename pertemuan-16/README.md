@@ -5,4 +5,5 @@ Dzaki Fauzan,UAS
 <ol>
 <li>Mengekstra bahan untuk uas</li>
 <li>Mmebuat tabel para pengunjung</li>
+<li>Nomor 2</li>
 </ol>
